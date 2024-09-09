@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>FETCH API</h1>
+  <hr>
+
+  <ul *ngIf="status==='ready'">
+    <li *ngFor="let user of data">
+      {{ user.id }} {{ user.email }}
+    </li>
+  </ul>
+  
+  <!-- Loading template -->
+  <div *ngIf="status==='loading'"> Loading...</div>
+  <div *ngIf="status === 'error'">NO data</div>
+
+</body>
+</html>

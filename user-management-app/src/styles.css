@@ -1,0 +1,17 @@
+/* Global font and background styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  /* Add some padding around the main container */
+  .container {
+    padding: 20px;
+  }
+  

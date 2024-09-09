@@ -1,0 +1,31 @@
+Observable - a function that creates an observer, and attaches it to a source 
+
+    where values are expected 
+
+Subscription :
+
+    to excute the Observable, we need to subscribe it.
+
+Observer -  an object
+
+                -next()
+
+                -error()
+
+                -complete()
+
+Operators -
+
+    input - Observable
+
+    output - Observable
+ 
+Subject :
+
+    an Observable that communicates with many observers.
+ 
+schedular -
+
+    controls the execution, when the subscription has to start and notified
+
+ 

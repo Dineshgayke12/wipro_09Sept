@@ -1,0 +1,31 @@
+/* Styles for the main application component */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 50;
+  }
+  
+  main {
+    padding: 20px;
+  }
+
+
+  
+h1 {
+    font-size: 36px; 
+    font-weight: bold; 
+    color: #007bff; 
+    text-align: center;
+    margin: 20px 0; 
+    padding: 10px; 
+    border-bottom: 4px solid #007bff; 
+    text-transform: uppercase; 
+    font-family: 'Roboto';
+    letter-spacing: 1px; 
+  }
+  
